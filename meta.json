@@ -1,0 +1,28 @@
+{
+  "application": {
+    "description": "Плагин MDX-редактора для Strapi",
+    "frontendType": "other",
+    "engines": {
+      "node": "18.12.0"
+    }
+  },
+  "members": {
+    "releasers": ["pokondratov@sberbank.ru"],
+    "contributors": ["pokondratov@sberbank.ru"],
+    "qaEngineers": ["kalitvinov@sberbank.ru"]
+  },
+  "ci": {
+    "jobs": {
+      "test": {
+        "enabled": false
+      },
+      "lint": {
+        "enabled": false
+      },
+      "canary": {
+        "enabled": true
+      }
+    },
+    "kits": ["publish"]
+  }
+}
