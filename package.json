@@ -1,5 +1,13 @@
 {
   "version": "0.0.10",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulislava/strapi-mdx-editor.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [],
   "type": "commonjs",
   "exports": {
